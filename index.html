@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- StyleSheet CSS -->
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+
+<body class="font-sans" style="font-family: Poppins;">
+
+    <!-- First Order Offer -->
+    <section class="bg-black text-white text-xs flex flex-wrap items-center justify-center gap-14 p-1 md:text-2xl">
+        <p>Sign Up and <span class="font-bold">GET 20% OFF</span> for your first Order</p>
+        <i class="fa-solid fa-xmark cursor-pointer" style="color: #ffffff;"></i>
+    </section>
+
+    <!-- Navbar -->
+
+    <section class="sticky top-0 z-20 bg-white">
+        <nav class="flex justify-between items-center">
+            <h1 class="font-bold text-2xl px-4 p-2 md:p-4">Nostra</h1>
+
+            <div>
+                <ul class="hidden md:flex gap-16 p-4 px-14 text-base">
+                    <li><a href="index.html" class="hover:underline">Home</a></li>
+                    <li><a href="#NewArrival" class="hover:underline">New Arrival</a></li>
+                    <li><a href="#MostWanted" class="hover:underline">Most Wanted</a></li>
+                    <li><a href="collection.html" class="hover:underline">Collections</a></li>
+                    <li><a href="contact.html" class="hover:underline">Contact Us</a></li>
+
+                </ul>
+            </div>
+
+            <i class="fa-solid fa-bars cursor-pointer md:hidden p-4" style="color: #000000;"></i>
+        </nav>
+    </section>
+
+    <!-- Banner Image -->
+
+    <section>
+        <i class="fa-solid fa-caret-left  absolute cursor-pointer z-10 top-32 left-9 text-4xl md:text-9xl md:top-64"
+            style="color: #ffffff;"></i>
+        <div class="flex w-screen overflow-hidden">
+            <img src="./images/slider-one.jpg" alt="" class="w-screen px-4 relative">
+        </div>
+        <i class="fa-solid fa-caret-right  absolute cursor-pointer z-10 top-32 right-9 text-4xl md:text-9xl md:top-64"
+            style="color: #ffffff;"></i>
+
+        <div
+            class="justify-center text-center flex flex-col absolute top-24 left-24 z-10 text-white md:-bottom-48 md:right-9 md:text-right">
+            <h1 class="font-bold text-2xl md:text-5xl mb-3">Level up your style with our</h1>
+            <p class="text-base md:text-xl mb-2">Summer Collections</p>
+            <button
+                class="p-2 text-black bg-white w-28 text-center text-xs ml-24 md:ml-auto md:text-xl md:w-36 hover:bg-gray-200">Shop
+                Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+    </section>
+
+    <!-- Brands -->
+
+    <section class="mt-16 px-4 items-center">
+        <h2 class="font-bold text-2xl mb-3">Brands</h2>
+        <div class="flex justify-between text-center items-center">
+            <div class="text-center items-center">
+                <img src="./images/puma.png" alt="" class="mb-1 w-7 md:w-16">
+                <p class="text-xs md:text-3xl">Puma</p>
+            </div>
+            <div class="text-center items-center">
+                <img src="./images/adidas.png" alt="" class="mb-1 w-7 md:w-16">
+                <p class="text-xs md:text-3xl">Adidas</p>
+            </div>
+            <div class="text-center items-center">
+                <img src="./images/simple.png" alt="" class="mb-1 w-7 md:w-16">
+                <p class="text-xs md:text-3xl">Simple</p>
+            </div>
+            <div class="text-center items-center">
+                <img src="./images/leaves.png" alt="" class="mb-1 w-7 md:w-16">
+                <p class="text-xs md:text-3xl">Leaves</p>
+            </div>
+            <div class="text-center items-center">
+                <img src="./images/behance.png" alt="" class="mb-1 w-7 md:w-16">
+                <p class="text-xs md:text-3xl">Behance</p>
+            </div>
+            <div class="text-center items-center">
+                <img src="./images/twitch.png" alt="" class="mb-1 w-7 md:w-16">
+                <p class="text-xs md:text-3xl">Twitch</p>
+            </div>
+            <div class="text-center items-center">
+                <img src="./images/leaves.png" alt="" class="mb-1 w-7  md:w-16">
+                <p class="text-xs md:text-3xl">Leaves</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Customer Review -->
+
+    <section class="mt-16 flex px-4 gap-24 md:justify-between items-center">
+        <div class="font-bold text-xs md:text-3xl">
+            <h2 class="mb-1">We Provide Best</h2>
+            <h2>Customer Experiences</h2>
+        </div>
+        <div class="text-xs md:text-xl">
+            <p>|| We ensure that our customer have the best shopping experience</p>
+        </div>
+    </section>
+
+    <section class="px-4 grid grid-cols-2 md:grid-cols-4 justify-between mt-9 gap-3">
+        <div class="bg-gray-200 rounded-md p-4 flex flex-col flex-wrap">
+            <i class="fa-regular fa-circle-check md:text-5xl p-1"></i>
+            <p class="font-bold text-xs md:text-base">Original Products</p>
+            <p class="text-xs md:text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                consequuntur.</p>
+        </div>
+        <div class="bg-gray-200 rounded-md p-4 flex flex-col flex-wrap">
+            <i class="fa-regular fa-face-smile md:text-5xl p-1"></i>
+            <p class="font-bold text-xs md:text-base">Satisfaction Guarantee </p>
+            <p class="text-xs md:text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                consequuntur.</p>
+        </div>
+        <div class="bg-gray-200 rounded-md p-4 flex flex-col flex-wrap">
+            <i class="fa-solid fa-broom md:text-5xl p-1"></i>
+            <p class="font-bold text-xs md:text-base">New Arrival Everyday</p>
+            <p class="text-xs md:text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                consequuntur.</p>
+        </div>
+        <div class="bg-gray-200 rounded-md p-4 flex flex-col flex-wrap">
+            <i class="fa-solid fa-truck-fast md:text-5xl p-1"></i>
+            <p class="font-bold text-xs md:text-base">Fast & Free Shipping</p>
+            <p class="text-xs md:text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                consequuntur.</p>
+        </div>
+    </section>
+
+    <!-- New Arrival -->
+
+    <section class="px-4 mt-14" id="NewArrival">
+        <h2 class="font-bold text-2xl mb-6">New Arrival</h2>
+
+        <div class="flex gap-4 md:justify-between ">
+            <div class="relative">
+                <img src="./images/f1.jpg" alt="" class="w-80 rounded relative">
+                <div class="absolute top-0 rounded"
+                    style="background-color: #000000; opacity: 0.5; width: 100%; height: 100%; z-index: 2;"></div>
+                <button
+                    class="bg-gray-200 text-xs md:text-base p-1 md:p-2 rounded-xl bottom-4 left-3 absolute md:bottom-24 md:left-28 z-10">Shop
+                    Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="relative">
+                <img src="./images/f7.jpg" alt="" class="w-80 rounded relative">
+                <div class="absolute top-0 rounded"
+                    style="background-color: #000000; opacity: 0.5; width: 100%; height: 100%; z-index: 2;"></div>
+                <button
+                    class="bg-gray-200 text-xs p-1 md:text-base md:p-2 rounded-xl bottom-4 left-3 absolute md:bottom-24 md:left-28 z-10">Shop
+                    Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="relative">
+                <img src="./images/n1.jpg" alt="" class="w-80 rounded relative">
+                <div class="absolute top-0 rounded"
+                    style="background-color: #000000; opacity: 0.5; width: 100%; height: 100%; z-index: 2;"></div>
+                <button
+                    class="bg-gray-200 text-xs p-1 md:text-base md:p-2 rounded-xl bottom-4 left-3 absolute md:bottom-24 md:left-28 z-10">Shop
+                    Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="relative">
+                <img src="./images/n7.jpg" alt="" class="w-80 rounded">
+                <div class="absolute top-0 rounded"
+                    style="background-color: #000000; opacity: 0.5; width: 100%; height: 100%; z-index: 2;"></div>
+                <button
+                    class="bg-gray-200 text-xs p-1 md:text-base md:p-2 rounded-xl bottom-4 left-3 absolute md:bottom-24 md:left-28 z-10">Shop
+                    Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Most Wanted -->
+
+    <section class="mt-14 px-4 flex flex-col" id="MostWanted">
+        <h2 class="font-bold text-2xl mb-5">Most Wanted</h2>
+
+        <div class="most-wanted">
+            <div class="most-wanted-container">
+                <img class="mwimg" src="./images/n8.jpg" alt="">
+                <p class="sale-overlay">sale</p>
+                <img class="like-button" src="./images/blackheart.png" alt="">
+            </div>
+
+            <div class="most-wanted-container">
+                <img class="mwimg" src="./images/f1.jpg" alt="">
+                <p class="sale-overlay">sale</p>
+                <img class="like-button" src="./images/blackheart.png" alt="">
+            </div>
+
+            <div class="most-wanted-container">
+                <img class="mwimg" src="./images/n1.jpg" alt="">
+                <p class="sale-overlay">sale</p>
+                <img class="like-button" src="./images/blackheart.png" alt="">
+            </div>
+
+            <div class="most-wanted-container">
+                <img class="mwimg" src="./images/n7.jpg" alt="">
+                <p class="sale-overlay">sale</p>
+                <img class="like-button" src="./images/blackheart.png" alt="">
+            </div>
+
+            <div class="most-wanted-container">
+                <img class="mwimg" src="./images/n3.jpg" alt="">
+                <p class="sale-overlay">sale</p>
+                <img class="like-button" src="./images/blackheart.png" alt="">
+            </div>
+
+            <div class="most-wanted-container">
+                <img class="mwimg" src="./images/f7.jpg" alt="">
+                <p class="sale-overlay">sale</p>
+                <img class="like-button" src="./images/blackheart.png" alt="">
+            </div>
+
+            <div class="most-wanted-container">
+                <img class="mwimg" src="./images/n4.jpg" alt="">
+                <p class="sale-overlay">sale</p>
+                <img class="like-button" src="./images/blackheart.png" alt="">
+            </div>
+
+            <div class="most-wanted-container">
+                <img class="mwimg" src="./images/n7.jpg" alt="">
+                <p class="sale-overlay">sale</p>
+                <img class="like-button" src="./images/blackheart.png" alt="">
+            </div>
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>
