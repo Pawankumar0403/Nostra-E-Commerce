@@ -17,6 +17,14 @@ html {
     display: none;
 }
 
+/* banner */
+#slider-image {
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+}
+
+/* mostwanted */
+
 .most-wanted {
     display: flex;
     justify-content: space-between;
@@ -27,12 +35,10 @@ html {
 
 .most-wanted-container {
     position: relative;
+    min-width: fit-content;
 }
 
-.mwimg{
-    width: 300px;
-    border-radius: 2%;
-}
+
 
 .sale-overlay {
     position: absolute;
@@ -52,4 +58,5 @@ html {
     width: 15%;
     bottom: 12%;
     right: 5%;
+    cursor: pointer;
 }
